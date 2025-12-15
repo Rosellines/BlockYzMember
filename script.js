@@ -103,6 +103,7 @@ const nameColor = document.getElementById("name-color");
 const subtextColor = document.getElementById("subtext-color");
 const idColor = document.getElementById("id-color");
 const dateColor = document.getElementById("date-color");
+const toggleLogo2Btn = document.getElementById("toggle-logo2");
 
 
 /* Depth & Edge Layers */
@@ -526,5 +527,15 @@ document.addEventListener("DOMContentLoaded", () => {
       card.style.transform = "";
     }, 380); // slightly longer than transition
   });
+});
+
+/* ==========================
+   🔄 TOGGLE LOGO2 VISIBILITY
+   ========================== */
+toggleLogo2Btn.addEventListener("click", () => {
+  const logo2 = document.querySelector(".logo2");
+  if (logo2) {
+    logo2.style.display = logo2.style.display === "none" ? "block" : "none";
+  }
 });
 

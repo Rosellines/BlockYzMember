@@ -375,6 +375,21 @@ h1 {
   object-fit: cover;
 }
 
+/* LOGO2 */
+.logo2 {
+  position: absolute;
+  bottom: -10px;
+  right: -15px;
+  width: 35vw;
+  height: 25vw;
+  max-width: 350px;
+  max-height: 225px;
+  border-radius: 8px;
+  padding: 4px;
+  backdrop-filter: blur(4px);
+  z-index: 2;
+}
+
 /* BACK SIDE */
 .back-content {
   position: absolute;
