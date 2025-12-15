@@ -1,0 +1,5 @@
+- [x] Remove Halloween theme object from themes array in script.js
+- [x] Remove Halloween-related CSS styles from style.css
+- [x] Delete associated image files (halloween-logo.png, moon.png, bat.png, pumpkin.png, image.jpeg)
+- [x] Change font from Ethnocentric.otf to Long Shot.ttf in style.css
+- [x] Verify changes
